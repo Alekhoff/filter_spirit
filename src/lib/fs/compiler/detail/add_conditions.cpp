@@ -258,6 +258,10 @@ add_string_condition(
 		{
 			return add_string_condition_impl(std::move(strings), is_exact_match, condition_origin, condition_set.base_type);
 		}
+		case lang::string_condition_property::prophecy:
+		{
+			return add_string_condition_impl(std::move(strings), is_exact_match, condition_origin, condition_set.prophecy);
+		}
 		case lang::string_condition_property::has_explicit_mod:
 		{
 			return add_string_condition_impl(std::move(strings), is_exact_match, condition_origin, condition_set.has_explicit_mod);

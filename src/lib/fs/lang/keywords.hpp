@@ -86,6 +86,7 @@ constexpr auto quality          = generation::quality;
 constexpr auto rarity           = generation::rarity;
 constexpr auto class_           = generation::class_;
 constexpr auto base_type        = generation::base_type;
+constexpr auto prophecy        = generation::prophecy;
 constexpr auto sockets          = generation::sockets;
 constexpr auto linked_sockets   = generation::linked_sockets;
 constexpr auto socket_group     = generation::socket_group;

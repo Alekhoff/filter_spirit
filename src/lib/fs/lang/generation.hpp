@@ -15,6 +15,7 @@ constexpr auto quality          = "Quality";
 constexpr auto rarity           = "Rarity";
 constexpr auto class_           = "Class";
 constexpr auto base_type        = "BaseType";
+constexpr auto prophecy         = "Prophecy";
 constexpr auto sockets          = "Sockets";
 constexpr auto linked_sockets   = "LinkedSockets";
 constexpr auto socket_group     = "SocketGroup";

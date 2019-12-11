@@ -132,6 +132,7 @@ struct condition_set
 	rarity_range_condition rarity;
 	strings_condition class_;
 	strings_condition base_type;
+	strings_condition prophecy;
 	numeric_range_condition sockets;
 	numeric_range_condition links;
 	std::optional<socket_group_condition> socket_group;
