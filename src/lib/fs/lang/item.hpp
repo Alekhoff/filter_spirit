@@ -197,6 +197,8 @@ struct item
 	std::optional<int> map_tier;
 	std::optional<bool> is_identified;
 	std::optional<bool> is_corrupted;
+	std::optional<bool> is_alternatequality;
+	std::optional<bool> is_replica;
 	std::optional<bool> is_fractured_item;
 	std::optional<bool> is_synthesised_item;
 	std::optional<bool> is_shaped_map;

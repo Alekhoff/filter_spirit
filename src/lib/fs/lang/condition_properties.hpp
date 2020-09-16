@@ -47,6 +47,8 @@ enum class boolean_condition_property
 {
 	identified,
 	corrupted,
+	alternatequality,
+	replica,
 	mirrored,
 	elder_item,
 	shaper_item,

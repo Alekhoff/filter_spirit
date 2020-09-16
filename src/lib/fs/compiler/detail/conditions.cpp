@@ -281,6 +281,12 @@ add_boolean_condition(
 		case lang::boolean_condition_property::corrupted: {
 			return add_boolean_condition_impl(boolean, condition_origin, condition_set.is_corrupted);
 		}
+		case lang::boolean_condition_property::alternatequality: {
+			return add_boolean_condition_impl(boolean, condition_origin, condition_set.is_alternatequality);
+		}
+		case lang::boolean_condition_property::replica: {
+			return add_boolean_condition_impl(boolean, condition_origin, condition_set.is_replica);
+		}
 		case lang::boolean_condition_property::mirrored: {
 			return add_boolean_condition_impl(boolean, condition_origin, condition_set.is_mirrored);
 		}

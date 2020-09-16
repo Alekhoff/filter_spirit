@@ -237,6 +237,8 @@ void condition_set::generate(std::ostream& output_stream) const
 
 	output_boolean_condition(is_identified,       kw::identified,       output_stream);
 	output_boolean_condition(is_corrupted,        kw::corrupted,        output_stream);
+	output_boolean_condition(is_alternatequality, kw::alternatequality, output_stream);
+	output_boolean_condition(is_replica,          kw::replica,          output_stream);
 	output_boolean_condition(is_mirrored,         kw::mirrored,         output_stream);
 	output_boolean_condition(is_elder_item,       kw::elder_item,       output_stream);
 	output_boolean_condition(is_shaper_item,      kw::shaper_item,      output_stream);

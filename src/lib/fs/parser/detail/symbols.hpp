@@ -195,6 +195,8 @@ namespace rf
 			add
 				(lang::keywords::rf::identified,        lang::boolean_condition_property::identified)
 				(lang::keywords::rf::corrupted,         lang::boolean_condition_property::corrupted)
+				(lang::keywords::rf::alternatequality,  lang::boolean_condition_property::alternatequality)
+				(lang::keywords::rf::replica,           lang::boolean_condition_property::replica)
 				(lang::keywords::rf::mirrored,          lang::boolean_condition_property::mirrored)
 				(lang::keywords::rf::elder_item,        lang::boolean_condition_property::elder_item)
 				(lang::keywords::rf::shaper_item,       lang::boolean_condition_property::shaper_item)

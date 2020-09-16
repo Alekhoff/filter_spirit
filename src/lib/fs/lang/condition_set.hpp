@@ -221,6 +221,8 @@ struct condition_set
 	integer_range_condition corrupted_mods;
 	std::optional<boolean_condition> is_identified;
 	std::optional<boolean_condition> is_corrupted;
+	std::optional<boolean_condition> is_alternatequality;
+	std::optional<boolean_condition> is_replica;
 	std::optional<boolean_condition> is_mirrored;
 	std::optional<boolean_condition> is_elder_item;
 	std::optional<boolean_condition> is_shaper_item;
